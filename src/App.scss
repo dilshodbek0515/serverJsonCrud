@@ -1,0 +1,10 @@
+body {
+  background-image: url('./assets/images/img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
