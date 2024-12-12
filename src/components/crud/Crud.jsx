@@ -49,11 +49,11 @@ const Crud = () => {
           <div className='input_collection'>
             <div>
               <input
-                type='text'
+                type='url'
                 placeholder='image'
-                name='image'
+                name='img'
                 required
-                defaultValue={edit?.image || ''}
+                defaultValue={edit?.img || ''}
               />
               <input
                 type='text'

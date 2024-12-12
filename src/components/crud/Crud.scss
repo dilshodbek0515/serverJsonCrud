@@ -56,6 +56,7 @@ div {
         border-radius: 50px;
         font-size: 20px;
         color: white;
+        cursor: pointer;
         transition: 0.3s;
         &:hover {
           background: transparent;
@@ -78,8 +79,7 @@ div {
     .user_card {
       height: auto;
       border-radius: 10px;
-      border: 1px solid white;
-      background-color: whitesmoke;
+      background-color: rgb(30, 26, 78);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -87,18 +87,19 @@ div {
       gap: 20px;
       padding: 20px 0px;
       .user_img {
-        width: 60%;
-        height: 50%;
+        width: 90%;
+        height: 250px;
+        background-color: white;
+        border-radius: 10px;
       }
       .userName {
         width: 100%;
         display: flex;
-        align-items: center;
         justify-content: space-between;
         padding: 0px 20px;
         h3 {
           font-size: 22px;
-          color: black;
+          color: white;
         }
         p {
           font-size: 18px;
@@ -108,7 +109,7 @@ div {
       .desc {
         max-width: 300px;
         font-size: 16px;
-        color: black;
+        color: white;
         opacity: 0.5;
         text-align: center;
         padding: 0px 10px;
